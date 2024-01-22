@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/edited-jobb/static/css/main.c7608fba.css",
+    "main.js": "/edited-jobb/static/js/main.b900df49.js",
+    "static/css/484.ca13bd9d.chunk.css": "/edited-jobb/static/css/484.ca13bd9d.chunk.css",
+    "static/js/484.505908dc.chunk.js": "/edited-jobb/static/js/484.505908dc.chunk.js",
+    "static/js/787.fc58cd23.chunk.js": "/edited-jobb/static/js/787.fc58cd23.chunk.js",
+    "static/js/173.486e0b3e.chunk.js": "/edited-jobb/static/js/173.486e0b3e.chunk.js",
+    "static/media/hobspot-loader.webp": "/edited-jobb/static/media/hobspot-loader.b653093eceea45b8803d.webp",
+    "index.html": "/edited-jobb/index.html",
+    "main.c7608fba.css.map": "/edited-jobb/static/css/main.c7608fba.css.map",
+    "main.b900df49.js.map": "/edited-jobb/static/js/main.b900df49.js.map",
+    "484.ca13bd9d.chunk.css.map": "/edited-jobb/static/css/484.ca13bd9d.chunk.css.map",
+    "484.505908dc.chunk.js.map": "/edited-jobb/static/js/484.505908dc.chunk.js.map",
+    "787.fc58cd23.chunk.js.map": "/edited-jobb/static/js/787.fc58cd23.chunk.js.map",
+    "173.486e0b3e.chunk.js.map": "/edited-jobb/static/js/173.486e0b3e.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.c7608fba.css",
+    "static/js/main.b900df49.js"
+  ]
+}
