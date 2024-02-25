@@ -165,6 +165,7 @@ const App = ()=>{
               <span className="labels_for_inp">Password</span>
               <br />
 
+                    // changed the input to place holder
               <div className="div_2_include_icon_in_input_">
 
                 <MdLock className="inp_icon"/>
